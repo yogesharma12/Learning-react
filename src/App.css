@@ -1,0 +1,39 @@
+.Nav {
+    height: 100%;
+    background: lightslategray;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    font-family: fangsong;
+    border-style: solid;
+}
+.logo {
+	width: 60px;
+}
+
+.list {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	position: relative;
+}
+.list-item {
+  margin-right: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: rgb(250 250 250);
+}
+.Home {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 10px;
+    margin: 100px;
+}
+.footer {
+	background: ghostwhite;
+	
+}
