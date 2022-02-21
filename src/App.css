@@ -1,3 +1,9 @@
+body {
+	background: #1C1C1C;
+	color: white;
+	font-family: Inter;
+}
+
 .Nav {
     height: 100%;
     background: lightslategray;
@@ -10,6 +16,12 @@
 }
 .logo {
 	width: 60px;
+}
+.logo-text {
+    margin-left: 5px;
+    flex: auto;
+    color: black;
+    font-weight: bolder;
 }
 
 .list {
@@ -33,7 +45,124 @@
     padding: 10px;
     margin: 100px;
 }
+.Business-card {
+	
+	background: #23252C; 
+	position: relative;
+	width: 550px;
+	height: 868px;
+	left: 65px;
+	top: 53px;
+}
+.profile {
+	position: absolute;
+	width: 317px;
+	height: 317px;
+	left: 116px;
+	top: 44px;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.card-content {
+	position: absolute;
+	width: 317px;
+	height: 399px;
+	left: 116px;
+	top: 361px;
+	background: #1A1B21;
+	text-align: center;
+}
+.card-content > h1 {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+.card-content > h2 {
+    font-weight: bold;
+    text-align: left;
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+.card-content > h3 {
+    font-weight: bold;
+    font-size: 13px;
+    color: #F3BF99;
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+.card-content > h4 {
+    font-weight: bold;
+    font-size: 11px;
+    color: #F5F5F5;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+.card-content > p {
+    font-size: 14px;
+    text-align: justify;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.email {
+	display: flex;
+	background: white;
+	align-items: center;
+	justify-content: center;
+	margin-right: 17px;
+	width: 115px;
+	height: 38px;
+	border-radius: 6px;
+}
+.email > img {
+	width: 33px;
+	height: 33px;
+	margin: 0px 4px;
+	margin-left: -20px;
+
+}
+.linkedin {
+	display: flex;
+	color : white;
+	background: #5093E2;
+	align-items: center;
+	justify-content: center;
+	width: 115px;
+	height: 38px;
+	border-radius: 6px;
+}
+.linkedin > img {
+	width: 20px;
+	height: 20px;
+	margin: 0px 8px;
+	margin-left: -5px;
+	
+}
+.social-media {
+	width: 317px;
+	height: 64px;
+	background: #161619;
+	border-radius: 0px 0px 10px 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.social-media > img {
+    height: 35px;
+    width: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
 .footer {
 	background: ghostwhite;
+	margin-top: auto;
 	
 }
