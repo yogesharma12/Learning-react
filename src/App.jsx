@@ -4,6 +4,7 @@ import Home from './view/Home.jsx';
 import Nav from './view/Nav.jsx';
 import About from './view/About.jsx';
 import Projects from './view/Projects.jsx';
+import Travels from './view/Travels.jsx';
 import Blogs from './view/Blogs.jsx';
 import Shop from './view/Shop.jsx';
 import Contact from './view/Contact.jsx';
@@ -19,6 +20,7 @@ function App() {
 					<Route path="/" element={<Home />} />
 					<Route path="/about" element={<About />} />
 					<Route path="/projects" element={<Projects />} />
+					<Route path="/travels" element={<Travels />} />
 					<Route path="/blogs" element={<Blogs />} />
 					<Route path="/shop" element={<Shop />} />
 					<Route path="/contact" element={<Contact />} />

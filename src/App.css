@@ -1,9 +1,14 @@
 body {
-	background: #1C1C1C;
+	background:rgb(0, 0, 0);
 	color: white;
 	font-family: Inter;
 }
-
+.grey {
+	color: grey;
+  margin-left: 20px;
+  text-decoration: underline;
+  font-size: 10px;
+}
 .Nav {
     height: 100%;
     background: lightslategray;
@@ -23,7 +28,6 @@ body {
     color: black;
     font-weight: bolder;
 }
-
 .list {
 	list-style: none;
 	display: flex;
@@ -46,7 +50,6 @@ body {
     margin: 100px;
 }
 .Business-card {
-	
 	background: #23252C; 
 	position: relative;
 	width: 550px;
@@ -62,7 +65,6 @@ body {
 	top: 44px;
 	border-radius: 10px 10px 0px 0px;
 }
-
 .card-content {
 	position: absolute;
 	width: 317px;
@@ -157,10 +159,69 @@ body {
     margin-left: 10px;
     margin-right: 10px;
 }
+.places {
+	display: flex;
+	justify-content: center;
+	flex-wrap : wrap;
+	gap: 25px;
+}
+.place {
+	display: flex;
+	align-items: center;
+	background: white;
+	margin-left: 40px;
+	margin-right: 40px;
+	width: 40%;
+	border-radius: 10px;
+	
+}
+.placeImage {
+	width: 150px;
+	height: 200px;
+	border-radius: 5px;
+	margin-left: 10px;
+	transition: filter .1s ease-in-out;
+}
+.placeImage:hover {
+    filter: brightness(50%);
+}
 
-
-
-
+.travelInfo {
+	background: rgb(34, 32, 32);
+	width: 100%;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	padding: 7px;
+}
+.location {
+	background: rgb(34, 32, 32);
+	width: 100%;
+	height: 25px;
+	display: flex;
+	align-items: center;
+	font-family: Inter;
+}
+.pin {
+	width: 8px;
+	height: 12px;
+	margin-left: 4px;
+	margin-right: 8px;
+}
+h1.title {
+    margin-top: 0px;
+    font-size: 25px;
+}
+h3.date {
+	margin-top: 14px;
+  font-size: 10.5px;
+}
+p.description {
+    margin-top: 9px;
+    font-size: 10.24px;
+    line-height: 150%;
+}
 .footer {
 	background: ghostwhite;
 	margin-top: auto;
