@@ -227,3 +227,25 @@ p.description {
 	margin-top: auto;
 	
 }
+
+input {
+    display: block;
+    margin-bottom: 5px;
+		margin-left: 20px;
+    line-height: 10px;
+    border-radius: 5px;
+    height: 30px;
+}
+textarea {
+	display: block;
+	margin-bottom: 5px;
+	margin-left: 20px;
+}
+button {
+	margin-left: 20px;
+	
+}
+button:hover{
+	background: red;
+	color: white
+}
